@@ -1,5 +1,5 @@
 body {
-	background: #2C2C34; /* For browsers that do not support gradients */
+	background: #2C2C34;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -74,6 +74,11 @@ h3#intro-2 {
 	textarea:focus,
 	button:focus {
     	outline: none;
+}
+
+
+.working-wrapper {
+	background-color: #E2E6F1;
 }
 
 

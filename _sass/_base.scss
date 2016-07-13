@@ -34,6 +34,7 @@ h3#intro-2 {
 	border-radius: 40px;
 	padding: 8px 32px;
 	border: 1px solid #E1AB35; 
+	-webkit-appearance: none;
 }
 #b2 {
 	margin-top: 20px;
@@ -43,6 +44,7 @@ h3#intro-2 {
 	border-radius: 40px;
 	padding: 2px 48px;
 	border: 1px solid #292B37; 
+	-webkit-appearance: none;
 }
 
 }
@@ -130,6 +132,13 @@ h3#intro-2 {
   	img#landing-img {
 		width: 100%;
 	}
+	.button-wrapper #i1 {
+		-webkit-appearance: none;
+	}
+
+	.button-wrapper #b2 {
+		-webkit-appearance: none;
+	}
 }
 
 
@@ -141,5 +150,13 @@ h3#intro-2 {
 
   	img#landing-img {
 		width: 100%;
+	}
+
+	.button-wrapper #i1 {
+		-webkit-appearance: none;
+	}
+
+	.button-wrapper #b2 {
+		-webkit-appearance: none;
 	}
 }

@@ -32,7 +32,7 @@ h3#intro-2 {
 	margin-top: 50px;
 	background-color: inherit;
 	border-radius: 40px;
-	padding: 8px;
+	padding: 8px 32px;
 	border: 1px solid #EF5E5E; 
 }
 #b2 {
@@ -64,9 +64,18 @@ h3#intro-2 {
 .notice * {
 	display: inline-block;
 }
+
+	input:focus,
+	select:focus,
+	textarea:focus,
+	button:focus {
+    	outline: none;
+}
+
+
 /* Portrait */
 @media only screen 
-  and (min-device-width: 350px) 
+  and (min-device-width: 310px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
@@ -93,7 +102,7 @@ h3#intro-2 {
 
 	.button-wrapper #i1 {
 		border-radius: 40px;
-		padding: 6px 2px;
+		padding: 8px 20px;
 	}
 
 	.button-wrapper #b2 {
@@ -106,7 +115,26 @@ h3#intro-2 {
 
 }
 
-@media only screen and (max-width: 800px) {
+/* Portrait */
+@media only screen 
+  and (min-device-width: 310px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+  	img#landing-img {
+		width: 100%;
+	}
+}
 
 
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  	img#landing-img {
+		width: 100%;
+	}
 }

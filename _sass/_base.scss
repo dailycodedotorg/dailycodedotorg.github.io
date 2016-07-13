@@ -1,12 +1,7 @@
 body {
-	 background: #292B37; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#292B37, #473714); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#292B37, #473714); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#292B37, #473714); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#292B37, #473714); /* Standard syntax */
+	background: #2C2C34; /* For browsers that do not support gradients */
 	font-family: 'Raleway', sans-serif;
 }
-
 
 .site-default {
 	text-align: center;
@@ -110,16 +105,15 @@ h3#intro-2 {
 	.button-wrapper #i1 {
 		border-radius: 40px;
 		padding: 8px 20px;
+		-webkit-appearance: none;
 	}
 
 	.button-wrapper #b2 {
 		font-size: 18px;
 		padding: 4px 48px;
+		-webkit-appearance: none;
 	}
 
-	.notice {
-		margin-bottom: 200px;
-	}
 	.notice img{
 		height: 20px;
 	}
@@ -147,8 +141,5 @@ h3#intro-2 {
 
   	img#landing-img {
 		width: 100%;
-	}
-	.notice {
-		margin-bottom: 400px;
 	}
 }

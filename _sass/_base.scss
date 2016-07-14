@@ -139,17 +139,22 @@ h1#site-header-4 {
 	}
 	.col-1 {
 		width: 50%;
-		text-align: center;
+		
 	}
 	.col-2 {
 		width: 50%;
+		text-align: center;
 	}
 
 	[class*="col-"] {
 		float: left;
-		padding: 50px;
+		padding: 15px;
 	    color: #292B37;
 	    background-color: #E2E6F1;
+	}
+
+	img {
+		width: 100%;
 	}
 }
 
